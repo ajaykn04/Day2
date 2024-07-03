@@ -4,8 +4,9 @@ import { Routes, Route } from 'react-router-dom'
 import First from './component/First'
 import Reg from './component/Reg'
 import TableC from './component/TableC'
-import { Table } from '@mui/material'
+
 import StateBasic from './component/StateBasic'
+import Counter from './component/Counter'
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path = '/l' element={<First/>}/>
       <Route path = '/r' element={<Reg/>}/>
       <Route path = '/t' element={<TableC/>}/>
+      <Route path = '/c' element={<Counter/>}/>
     </Routes>
     </>
   )

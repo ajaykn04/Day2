@@ -30,6 +30,11 @@ const Navbar = () => {
                     Table
                     </Link>
                 </Button>
+                <Button>
+                    <Link style={{textDecoration:'none',color:'white'}} to={'/c'}>
+                    Counter
+                    </Link>
+                </Button>
                 </Toolbar>
             </AppBar>
         </Box>
